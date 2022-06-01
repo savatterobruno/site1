@@ -1,0 +1,91 @@
+*
+{
+    margin:  0;
+    padding: 0;
+    /*box-sizing : 0;*/
+}
+
+#topo
+{
+    height: 150px;
+    background-color: aqua;
+}
+
+#menu ul
+{
+    background-color: blue;
+    /*b(0,0,255,0.7);*/
+}
+
+#menu ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li
+{
+    display: inline-table;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+
+#menu ul li:hover
+{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 30px;
+
+}
+
+#conteudo
+{
+    background-color: rgb(205, 205, 214);
+    min-height: 500px;
+
+}
+
+.img0 /*logo da quitanda*/
+{
+width: 250px;
+height: 150px;
+margin-top: 5px;
+margin-left: 250px;
+}
+
+#h
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.img1 /*laranja*/
+{
+ margin-top: 20px;
+ width: 250px;
+ height: 200px;
+ scroll-margin-inline-start: 0%;
+}
+
+.img2 /*Maçã*/
+{
+ margin-top: 20px;
+ width: 250px;
+ height: 200px;
+ scroll-margin-inline-start: 10%;
+}
+
+.img3 /*Banana*/
+{
+ margin-top: 20px;
+ width: 250px;
+ height: 200px;
+ scroll-margin-inline-start: 10%;
+}
+
+body
+{
+ width: 760px;
+ height: 616px;   
+ margin: 0 auto;
+}
